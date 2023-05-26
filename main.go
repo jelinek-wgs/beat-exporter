@@ -15,11 +15,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
+	"github.com/jelinek-wgs/beat-exporter/collector"
+	"github.com/jelinek-wgs/beat-exporter/internal/service"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/version"
-	"github.com/trustpilot/beat-exporter/collector"
-	"github.com/trustpilot/beat-exporter/internal/service"
 )
 
 const (
